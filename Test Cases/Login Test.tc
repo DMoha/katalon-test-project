@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Check if Login works successfully with different data sets</description>
+   <name>Login Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b18f17bf-109f-42d8-a8ea-4257fb071f25</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description>Username to be Provided</description>
+      <id>971760fe-52ab-47f2-a5e0-281de94e93a1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'abc123'</defaultValue>
+      <description>Password to be Provided</description>
+      <id>882452b2-4978-4f70-af0e-251ca5460610</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

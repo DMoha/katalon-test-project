@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data DrivenTest Suite" time="48" tests="1" failures="2" errors="0">
+   <testsuite name="Data DrivenTest Suite" tests="1" failures="2" errors="0" time="48" timestamp="2018-07-11 12:43:08" hostname="J772AHE - TNT06000091.nl.express.tnt" id="Test Suites/Data DrivenTest Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305"/>
+         <property name="logFiles" value="D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305\\execution0.log"/>
+         <property name="attachments" value="D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305\\1531305815943.png, D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305\\1531305816278.png, D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305\\1531305835320.png, D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305\\1531305835625.png"/>
+         <property name="hostName" value="J772AHE - TNT06000091.nl.express.tnt"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.203.169.205"/>
+         <property name="sessionId" value="be85bb90c4e530146199f9aa7fba18d4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login Test" classname="Test Cases/Login Test" status="PASSED">
+         <system-out><![CDATA[2018-07-11 12:43:09 - [TEST_CASE][PASSED] - Test Cases/Login Test: Test Cases/Login Test
+
+2018-07-11 12:43:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-07-11 12:43:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-07-11 12:43:16 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-07-11 12:43:17 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-07-11 12:43:17 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-07-11 12:43:17 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-07-11 12:43:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-11 12:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-11 12:43:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present
+
+2018-07-11 12:43:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present
+
+2018-07-11 12:43:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-11 12:43:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test" classname="Test Cases/Login Test" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)"/>
+         <system-out><![CDATA[2018-07-11 12:43:20 - [TEST_CASE][FAILED] - Test Cases/Login Test: Test Cases/Login Test FAILED because (of) Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)
+
+2018-07-11 12:43:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-07-11 12:43:27 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-07-11 12:43:27 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-07-11 12:43:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-07-11 12:43:27 - [TEST_STEP][PASSED] - setText: Text 'abc123' is set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-07-11 12:43:27 - [MESSAGE][PASSED] - Text 'abc123' is set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-07-11 12:43:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-11 12:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-11 12:43:30 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)
+
+2018-07-11 12:43:36 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found
+[[ATTACHMENT|D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305\\1531305815943.png]]
+
+2018-07-11 12:43:36 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)
+[[ATTACHMENT|D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305\\1531305816278.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-11 12:43:20 - [TEST_CASE][FAILED] - Test Cases/Login Test: Test Cases/Login Test FAILED because (of) Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test" classname="Test Cases/Login Test" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)"/>
+         <system-out><![CDATA[2018-07-11 12:43:36 - [TEST_CASE][FAILED] - Test Cases/Login Test: Test Cases/Login Test FAILED because (of) Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)
+
+2018-07-11 12:43:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-07-11 12:43:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-11 12:43:45 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/profile.php#login'
+
+2018-07-11 12:43:45 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-07-11 12:43:45 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-07-11 12:43:45 - [TEST_STEP][PASSED] - setText: Text 'qwerty' is set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-07-11 12:43:45 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-07-11 12:43:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-11 12:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-11 12:43:50 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)
+
+2018-07-11 12:43:55 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found
+[[ATTACHMENT|D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305\\1531305835320.png]]
+
+2018-07-11 12:43:55 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)
+[[ATTACHMENT|D:\\Users\\J772AHE\\Katalon Studio\\DataDrivenTest\\Reports\\Data DrivenTest Suite\\20180711_124305\\1531305835625.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-11 12:43:36 - [TEST_CASE][FAILED] - Test Cases/Login Test: Test Cases/Login Test FAILED because (of) Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 12:43:08 - [TEST_SUITE][FAILED] - Data DrivenTest Suite: Test Cases/Login Test FAILED because (of) Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-11 12:43:08 - [TEST_SUITE][FAILED] - Data DrivenTest Suite: Test Cases/Login Test FAILED because (of) Unable to verify object 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' located by 'By.xpath: //button[@id = 'btn-book-appointment' and @type = 'submit' and (text() = 'Book Appointment' or . = 'Book Appointment')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

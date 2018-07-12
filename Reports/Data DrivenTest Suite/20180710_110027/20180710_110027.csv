@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Data DrivenTest Suite,Firefox 60.0,,2018-07-10 11:00:30,2018-07-10 11:01:17,46.918s,FAILED
+,,,,,,
+Test Cases/Login Test,Firefox 60.0,To Check if Login works successfully with different data sets,2018-07-10 11:00:31,2018-07-10 11:00:51,20.467s,FAILED
+openBrowser,Firefox 60.0,,2018-07-10 11:00:32,2018-07-10 11:00:44,12.803s,PASSED
+setText,Firefox 60.0,,2018-07-10 11:00:44,2018-07-10 11:00:45,0.382s,PASSED
+setText,Firefox 60.0,,2018-07-10 11:00:45,2018-07-10 11:00:45,0.249s,PASSED
+click,Firefox 60.0,,2018-07-10 11:00:45,2018-07-10 11:00:46,0.984s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-07-10 11:00:46,2018-07-10 11:00:51,5.371s,FAILED
+,,,,,,
+Test Cases/Login Test,Firefox 60.0,To Check if Login works successfully with different data sets,2018-07-10 11:00:51,2018-07-10 11:01:04,12.216s,PASSED
+openBrowser,Firefox 60.0,,2018-07-10 11:00:51,2018-07-10 11:01:00,8.262s,PASSED
+setText,Firefox 60.0,,2018-07-10 11:01:00,2018-07-10 11:01:00,0.306s,PASSED
+setText,Firefox 60.0,,2018-07-10 11:01:00,2018-07-10 11:01:00,0.225s,PASSED
+click,Firefox 60.0,,2018-07-10 11:01:00,2018-07-10 11:01:03,2.851s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-07-10 11:01:03,2018-07-10 11:01:03,0.035s,PASSED
+closeBrowser,Firefox 60.0,,2018-07-10 11:01:03,2018-07-10 11:01:04,0.512s,PASSED
+,,,,,,
+Test Cases/Login Test,Firefox 60.0,To Check if Login works successfully with different data sets,2018-07-10 11:01:04,2018-07-10 11:01:17,12.962s,FAILED
+openBrowser,Firefox 60.0,,2018-07-10 11:01:04,2018-07-10 11:01:10,6.630s,PASSED
+setText,Firefox 60.0,,2018-07-10 11:01:10,2018-07-10 11:01:10,0.162s,PASSED
+setText,Firefox 60.0,,2018-07-10 11:01:10,2018-07-10 11:01:11,0.124s,PASSED
+click,Firefox 60.0,,2018-07-10 11:01:11,2018-07-10 11:01:11,0.705s,PASSED
+verifyElementPresent,Firefox 60.0,,2018-07-10 11:01:11,2018-07-10 11:01:17,5.320s,FAILED

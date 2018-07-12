@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Data DrivenTest Suite,Chrome 67.0.3396.99,,2018-07-11 12:51:03,2018-07-11 12:51:42,39.459s,FAILED
+,,,,,,
+Test Cases/Login Test,Chrome 67.0.3396.99,To Check if Login works successfully with different data sets,2018-07-11 12:51:03,2018-07-11 12:51:13,9.074s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-11 12:51:04,2018-07-11 12:51:10,5.846s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 12:51:10,2018-07-11 12:51:10,0.453s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 12:51:10,2018-07-11 12:51:10,0.259s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 12:51:10,2018-07-11 12:51:11,0.816s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,,2018-07-11 12:51:11,2018-07-11 12:51:11,0.187s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-11 12:51:11,2018-07-11 12:51:13,1.033s,PASSED
+,,,,,,
+Test Cases/Login Test,Chrome 67.0.3396.99,To Check if Login works successfully with different data sets,2018-07-11 12:51:13,2018-07-11 12:51:25,12.880s,FAILED
+openBrowser,Chrome 67.0.3396.99,,2018-07-11 12:51:13,2018-07-11 12:51:17,4.390s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 12:51:17,2018-07-11 12:51:17,0.254s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 12:51:17,2018-07-11 12:51:17,0.227s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 12:51:17,2018-07-11 12:51:19,2.027s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,,2018-07-11 12:51:19,2018-07-11 12:51:25,5.960s,FAILED
+,,,,,,
+Test Cases/Login Test,Chrome 67.0.3396.99,To Check if Login works successfully with different data sets,2018-07-11 12:51:25,2018-07-11 12:51:41,15.966s,FAILED
+openBrowser,Chrome 67.0.3396.99,,2018-07-11 12:51:25,2018-07-11 12:51:31,5.908s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 12:51:31,2018-07-11 12:51:32,0.367s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-11 12:51:32,2018-07-11 12:51:32,0.284s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 12:51:32,2018-07-11 12:51:35,3.430s,PASSED
+verifyElementPresent,Chrome 67.0.3396.99,,2018-07-11 12:51:35,2018-07-11 12:51:41,5.949s,FAILED
